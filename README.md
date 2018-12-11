@@ -211,6 +211,7 @@ emit('bot_uttered', message, room=socket_id)
 | WebChat.show()          | Show the chat widget, send initPayload if the chat is in open state and not initialized                            |
 | WebChat.hide()          | Hide the chat widget                                                                                               |
 | WebChat.isVisible()     | Get the shown/hidden state of the widget                                                                           |
+| WebChat.sendMessage(msg)     | Send a text message to the chat widget |
 
 
 

@@ -16,7 +16,8 @@ import {
   initialize,
   connectServer,
   disconnectServer,
-  pullSession
+  pullSession,
+  sendWebMessage
 } from 'actions';
 
 import { isSnippet, isVideo, isImage, isQR, isText } from './msgProcessor';

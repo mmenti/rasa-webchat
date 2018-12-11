@@ -77,6 +77,10 @@ export function showChat() {
   store.dispatch(actions.showChat());
 }
 
+export function sendWebMessage(text) {
+  store.dispatch(actions.sendWebMessage(text));
+}
+
 export function hideChat() {
   store.dispatch(actions.hideChat());
 }

@@ -42,6 +42,13 @@ export function hideChat() {
   };
 }
 
+export function sendWebMessage(text) {
+  return {
+    type: actions.ADD_NEW_RESPONSE_MESSAGE,
+    text
+  };
+}
+
 export function toggleChat() {
   return {
     type: actions.TOGGLE_CHAT
