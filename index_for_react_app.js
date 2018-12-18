@@ -16,7 +16,8 @@ import {
   hideChat,
   toggleInputDisabled,
   dropMessages,
-  sendWebMessage
+  sendWebMessage,
+  sendWebQuickReply
 } from './src/store/actions/dispatcher';
 
 export {
@@ -37,5 +38,6 @@ export {
   hideChat,
   toggleInputDisabled,
   dropMessages,
-  sendWebMessage
+  sendWebMessage,
+  sendWebQuickReply
 };

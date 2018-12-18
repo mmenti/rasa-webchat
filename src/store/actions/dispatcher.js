@@ -49,6 +49,10 @@ export function addQuickReply(quickReply) {
   store.dispatch(actions.addQuickReply(quickReply));
 }
 
+export function sendWebQuickReply(quickReply) {
+  store.dispatch(actions.sendWebQuickReply(quickReply));
+}
+
 export function setQuickReply(id, title) {
   store.dispatch(actions.setQuickReply(id, title));
 }

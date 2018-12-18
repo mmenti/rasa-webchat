@@ -129,6 +129,13 @@ export function addQuickReply(quickReply) {
   };
 }
 
+export function sendWebQuickReply(quickReply) {
+  return {
+    type: actions.ADD_QUICK_REPLY,
+    quickReply
+  };
+}
+
 export function setQuickReply(id, title) {
   return {
     type: actions.SET_QUICK_REPLY,
